@@ -32,11 +32,11 @@ window.addEventListener("scroll", () => {
 // template section(slider)
 const slider = document.querySelector('.slider');
 const templates = [
-    { image: 'assets/Chicago-Google-Docs-Resume-Template-Black.avif', title: 'Professional', desc: 'Modern Corporate Design', link: 'https://docs.google.com/document/d/1bo8baSuXWOUog9GleIQakcoqaAszSzVs/copy' },
-    { image: 'assets/Serif-Google-Docs-Resume-Template.avif', title: 'Creative', desc: 'Innovative Layout', link: 'https://docs.google.com/document/d/1M4DY_YNq1gwQQ-nC0zBOnuBWMFteWu35beYSxXdofb4/copy' },
-    { image: 'assets/unique-google-docs-resume-template.avif', title: 'Modern', desc: 'Clean Minimalist Style', link: 'https://docs.google.com/document/d/126Aubvklh8EbCAcDJM2y0Ai_VDNmZlw5/copy' },
-    { image: 'assets/easy-google-docs-resume-template.avif', title: 'Elegant', desc: 'Sophisticated Design', link: 'https://docs.google.com/document/d/1MUr5xO2Z_BkaxDFi5DGhw1FyjE1vVp2R/copy' },
-    { image: 'assets/harvard-google-docs-resume-template.avif', title: 'Minimal', desc: 'Simple and Clean', link: 'https://docs.google.com/document/d/1YJKLzegv5lRpVgSOUjjC3o0D1eSIO1qs/copy' }
+    { image: 'Chicago-Google-Docs-Resume-Template-Black.avif', title: 'Professional', desc: 'Modern Corporate Design', link: 'https://docs.google.com/document/d/1bo8baSuXWOUog9GleIQakcoqaAszSzVs/copy' },
+    { image: 'Serif-Google-Docs-Resume-Template.avif', title: 'Creative', desc: 'Innovative Layout', link: 'https://docs.google.com/document/d/1M4DY_YNq1gwQQ-nC0zBOnuBWMFteWu35beYSxXdofb4/copy' },
+    { image: 'unique-google-docs-resume-template.avif', title: 'Modern', desc: 'Clean Minimalist Style', link: 'https://docs.google.com/document/d/126Aubvklh8EbCAcDJM2y0Ai_VDNmZlw5/copy' },
+    { image: 'easy-google-docs-resume-template.avif', title: 'Elegant', desc: 'Sophisticated Design', link: 'https://docs.google.com/document/d/1MUr5xO2Z_BkaxDFi5DGhw1FyjE1vVp2R/copy' },
+    { image: 'harvard-google-docs-resume-template.avif', title: 'Minimal', desc: 'Simple and Clean', link: 'https://docs.google.com/document/d/1YJKLzegv5lRpVgSOUjjC3o0D1eSIO1qs/copy' }
 ];
 
 // Generate Slides
